@@ -74,8 +74,8 @@
     <IntDir>$(SolutionDir)$(Configuration)\bin\intermediates\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(SolutionDir)$(Configuration)\bin</OutDir>
-    <IntDir>$(SolutionDir)$(Configuration)\bin\intermediates</IntDir>
+    <OutDir>$(SolutionDir)\bin</OutDir>
+    <IntDir>$(SolutionDir)\bin\intermediates</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
